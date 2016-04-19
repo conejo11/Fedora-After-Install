@@ -1,0 +1,59 @@
+
+
+//BASHRC CONFIG
+
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'  // GCC COLOR COFIG
+
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;34m\]\u\[$(tput sgr0)\]\[\033[38;5;1m\]:\[$(tput sgr0)\]\[\033[38;5;27m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;128m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;178m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]->\[$(tput sgr0)\] \[$(tput sgr0)\]"  // PS1 CONFIG
+
+
+//INSTALL FIRST
+sudo dnf update
+sudo dnf install gnome-tweak-tool
+sudo dnf install --nogpgcheck http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+sudo dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+
+sudo dnf install gimp kdenlive vlc smplayer aria2 audacity guvcview VirtualBox transmission python3-spyder.noarch python3-mpi4py-openmpi.x86_64
+
+sudo dnf install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-base-tools gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-good gstreamer1-plugins-base gstreamer1
+
+sudo rpm -ivh http://linuxdownload.adobe.com/adobe-...
+sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+sudo dnf install flash-plugin nspluginwrapper alsa-plugins-pulseaudio libcurl
+
+su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"
+
+//FEDY
+Dropbox
+Flash
+Steam
+Codecs
+Skype
+etc...
+
+//GNOME EXTENSIONS
+
+Site das extensões do Gnome:
+https://extensions.gnome.org/
+
+Lista de extensões do Gnome: //VERIFICAR SE VALE A PENA USAR
+alternatetab
+caffeine
+launch new instance
+media player indicator
+places status indicator
+user themes
+window list
+dynamic panel transparency
+easyscreencast
+freon
+impatience
+sound output device chooser
+topicons
+TaskBar
+
+//TEMA GNOME
+MOKA
+
+//TEMA ICONES
+MOKA
